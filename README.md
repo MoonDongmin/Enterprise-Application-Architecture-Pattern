@@ -23,3 +23,5 @@ height="40px"/></a>
 
 ## "UML 실젠에서는 이것만 쓴다"
 [클래스 다이어그램](https://moondongmin.notion.site/3-49871219a6524bd3aea9cf8162e5b6d1?pvs=4)
+
+[시퀀스 다이어그램](https://moondongmin.notion.site/4-6c0468dcce034d44a5dd1003867b83aa?pvs=4)
