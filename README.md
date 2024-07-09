@@ -29,3 +29,5 @@ height="40px"/></a>
 [유스케이스](https://moondongmin.notion.site/5-bc07da4458ab4b7e876a4741a3ca8e5a?pvs=4)
 
 [객체 다이어그램](https://moondongmin.notion.site/9-90e09ecfc2c242ccae1fc1aa0bcbc0a4?pvs=4)
+
+[상태 다이어그램](https://moondongmin.notion.site/10-e514c0fef0444a93bdcc6457122a6405?pvs=4)
