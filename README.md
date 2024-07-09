@@ -25,3 +25,5 @@ height="40px"/></a>
 [클래스 다이어그램](https://moondongmin.notion.site/3-49871219a6524bd3aea9cf8162e5b6d1?pvs=4)
 
 [시퀀스 다이어그램](https://moondongmin.notion.site/4-6c0468dcce034d44a5dd1003867b83aa?pvs=4)
+
+[유스케이스](https://moondongmin.notion.site/5-bc07da4458ab4b7e876a4741a3ca8e5a?pvs=4)
