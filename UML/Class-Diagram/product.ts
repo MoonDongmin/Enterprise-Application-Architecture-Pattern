@@ -1,0 +1,4 @@
+interface Product {
+    getPrice(): number;
+
+}
