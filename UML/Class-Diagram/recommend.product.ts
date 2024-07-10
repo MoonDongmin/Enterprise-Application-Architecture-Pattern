@@ -1,11 +1,9 @@
 class RecommendedProduct implements Product {
     getPrice(): number {
-        // Implementation here
-        return 200; // Example value
+        return 200;
     }
 
     getMyHotRatings(): number[] {
-        // Implementation here
-        return [5, 5, 5]; // Example values
+        return [5, 5, 5];
     }
 }

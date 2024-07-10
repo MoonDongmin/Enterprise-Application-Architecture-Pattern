@@ -1,11 +1,9 @@
 class PopularProduct implements Product {
     getPrice(): number {
-        // Implementation here
-        return 100; // Example value
+        return 100;
     }
 
     getAllHotRatings(): number[] {
-        // Implementation here
-        return [5, 4, 3]; // Example values
+        return [5, 4, 3];
     }
 }

@@ -1,6 +1,5 @@
-class Cart {
+class Bucket {
     getProductId(): number {
-        // Implementation here
         return 1; // Example value
     }
 }
