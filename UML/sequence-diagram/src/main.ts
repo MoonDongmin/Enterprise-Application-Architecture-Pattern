@@ -1,7 +1,8 @@
-import {Client}       from "./client/client.ts";
-import {Product}      from "./product/product.ts";
-import {ShoppingCart} from "./shoppinCart/shoppingCart.ts";
-import {Order}        from "./order/order.ts";
+import {Client} from "./client/client";
+import {ShoppingCart} from "./shoppinCart/shoppingCart";
+import {Product} from "./product/product";
+import {Order} from "./order/order";
+
 
 function main() {
     const client = new Client("문동민");

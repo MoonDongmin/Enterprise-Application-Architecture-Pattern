@@ -1,4 +1,5 @@
-import {ShoppingCart} from "../shoppinCart/shoppingCart.ts";
+import { Product } from "../product/product";
+import {ShoppingCart} from "../shoppinCart/shoppingCart";
 
 export class Order {
     clientName: string;

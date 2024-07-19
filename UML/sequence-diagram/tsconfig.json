@@ -3,17 +3,30 @@
     "target": "ES2020",
     "useDefineForClassFields": true,
     "module": "ESNext",
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
     "skipLibCheck": true,
-
+    "baseUrl": "./",
+//    "paths": {
+//      "@/*": [
+//        "src/*"
+//      ],
+//      "@main/*": [
+//        "src/main/*"
+//      ],
+//      "@test/*": [
+//        "src/test/*"
+//      ]
+    },
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "moduleDetection": "force",
     "noEmit": true,
-
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
@@ -26,5 +39,5 @@
   "exclude": [
     "node_modules",
     "dist"
-  ]
+  ] // tsc 파일에 영향을 주지 않는다고 하는 것
 }

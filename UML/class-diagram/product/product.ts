@@ -1,4 +1,3 @@
 interface Product {
     getPrice(): number;
-
 }

@@ -3,7 +3,7 @@ class PopularProduct implements Product {
         return 100;
     }
 
-    getAllHotRatings(): number[] {
+    getAllHitRatings(): number[] {
         return [5, 4, 3];
     }
 }

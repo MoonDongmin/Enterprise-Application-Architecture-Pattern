@@ -3,7 +3,7 @@ class RecommendedProduct implements Product {
         return 200;
     }
 
-    getMyHotRatings(): number[] {
+    getMyHitRatings(): number[] {
         return [5, 5, 5];
     }
 }

@@ -1,4 +1,4 @@
-import {Product} from "../product/product.ts";
+import { Product } from "../product/product";
 
 export class ShoppingCart {
     private selectedProducts: Product[] = [];
