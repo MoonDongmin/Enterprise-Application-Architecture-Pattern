@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d9723e-58f0-43e6-a403-69e2ec2aa08c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/class-diagram/bucket.ts" beforeDir="false" afterPath="$PROJECT_DIR$/UML/class-diagram/bucket.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/class-diagram/customer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/UML/class-diagram/customer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/class-diagram/node_modules/.bin/tsc" beforeDir="false" afterPath="$PROJECT_DIR$/UML/class-diagram/node_modules/.bin/tsc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/class-diagram/node_modules/.modules.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/UML/class-diagram/node_modules/.modules.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/class-diagram/node_modules/.pnpm/lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/UML/class-diagram/node_modules/.pnpm/lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/class-diagram/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/UML/class-diagram/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/class-diagram/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/UML/class-diagram/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/class-diagram/product/popular.product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/UML/class-diagram/product/popular.product.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/class-diagram/product/product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/UML/class-diagram/product/product.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/class-diagram/product/recommend.product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/UML/class-diagram/product/recommend.product.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/class-diagram/purchase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/UML/class-diagram/purchase.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/sequence-diagram/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/UML/sequence-diagram/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/sequence-diagram/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/UML/sequence-diagram/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/sequence-diagram/src/order/order.ts" beforeDir="false" afterPath="$PROJECT_DIR$/UML/sequence-diagram/src/order/order.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/sequence-diagram/src/shoppinCart/shoppingCart.ts" beforeDir="false" afterPath="$PROJECT_DIR$/UML/sequence-diagram/src/shoppinCart/shoppingCart.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/sequence-diagram/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/UML/sequence-diagram/tsconfig.json" afterDir="false" />
-    </list>
+    <list default="true" id="c0d9723e-58f0-43e6-a403-69e2ec2aa08c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,21 +24,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "/Users/moon/Developments/Enterprise-Application-Architecture-Pattern",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Users/moon/Developments/Enterprise-Application-Architecture-Pattern/UML/sequence-diagram/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/moon/Developments/Enterprise-Application-Architecture-Pattern&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/moon/Developments/Enterprise-Application-Architecture-Pattern/UML/sequence-diagram/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/UML/sequence-diagram/src" />
@@ -95,6 +77,7 @@
       <workItem from="1720703922670" duration="1844000" />
       <workItem from="1720759013394" duration="1306000" />
       <workItem from="1721364378714" duration="3485000" />
+      <workItem from="1721387312324" duration="777000" />
     </task>
     <servers />
   </component>

@@ -21,6 +21,8 @@ height="40px"/></a>
 
 [04장. 웹 프레젠테이션](https://moondongmin.notion.site/04-99db5782e7dc46979ea9217411e56b41?pvs=4)
 
+[05장. 동시성](https://moondongmin.notion.site/05-31dd01c814c14b4a9a1b768ec8b39b29?pvs=4)
+
 ## "UML 실젠에서는 이것만 쓴다"
 [클래스 다이어그램](https://moondongmin.notion.site/3-49871219a6524bd3aea9cf8162e5b6d1?pvs=4)
 
