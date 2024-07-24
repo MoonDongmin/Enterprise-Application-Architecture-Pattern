@@ -1,4 +1,4 @@
-import {Player} from "../player";
+import {Player} from "../player.ts";
 
 export class SoccerPlayer extends Player {
     club: string;

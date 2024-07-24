@@ -1,4 +1,4 @@
-import { Player } from "../player.js";
+import { Player } from "../player.ts";
 export class SoccerPlayer extends Player {
     constructor(name, club) {
         super(name);

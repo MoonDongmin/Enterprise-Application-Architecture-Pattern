@@ -1,8 +1,8 @@
 import sqlite3         from "sqlite3";
-import {Player}        from "../player/player";
-import {SoccerPlayer}  from "../player/soccer-player/soccer.player";
-import {CricketPlayer} from "../player/cricket-player/cricket.player";
-import {BowlingPlayer} from "../player/bowling-player/bowling.player";
+import {Player}        from "../player/player.ts";
+import {SoccerPlayer}  from "../player/soccer-player/soccer.player.ts";
+import {CricketPlayer} from "../player/cricket-player/cricket.player.ts";
+import {BowlingPlayer} from "../player/bowling-player/bowling.player.ts";
 
 const db = new sqlite3.Database(":memory:");
 

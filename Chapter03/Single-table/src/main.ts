@@ -1,7 +1,7 @@
-import {SoccerPlayer} from "./player/soccer-player/soccer.player";
-import {DbHandler}     from "./Database/database";
-import {CricketPlayer} from "./player/cricket-player/cricket.player";
-import {BowlingPlayer} from "./player/bowling-player/bowling.player";
+import {SoccerPlayer} from "./player/soccer-player/soccer.player.ts";
+import {DbHandler}     from "./Database/database.ts";
+import {CricketPlayer} from "./player/cricket-player/cricket.player.ts";
+import {BowlingPlayer} from "./player/bowling-player/bowling.player.ts";
 
 
 async function main() {

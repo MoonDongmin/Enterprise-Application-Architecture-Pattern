@@ -1,7 +1,7 @@
-import { SoccerPlayer } from "./player/soccer-player/soccer.player.js";
-import { DbHandler } from "./Database/database.js";
-import { CricketPlayer } from "./player/cricket-player/cricket.player.js";
-import { BowlingPlayer } from "./player/bowling-player/bowling.player.js";
+import { SoccerPlayer } from "./player/soccer-player/soccer.player.ts";
+import { DbHandler } from "./Database/database.ts";
+import { CricketPlayer } from "./player/cricket-player/cricket.player.ts";
+import { BowlingPlayer } from "./player/bowling-player/bowling.player.ts";
 async function main() {
     const soccerPlayer = new SoccerPlayer("문동민", "김천상무");
     console.log(`축구 선수: ${soccerPlayer.name}, 클럽: ${soccerPlayer.club}`);

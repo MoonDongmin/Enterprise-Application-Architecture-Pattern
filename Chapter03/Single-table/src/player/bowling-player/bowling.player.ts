@@ -1,4 +1,4 @@
-import {Player}        from "../player";
+import {Player}        from "../player.ts";
 
 export class BowlingPlayer extends Player {
     bowlingAverage: number;

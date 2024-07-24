@@ -1,10 +1,10 @@
 import sqlite3 from "sqlite3";
-import { SoccerPlayer } from "../player/soccer-player/soccer.player.js";
-import { CricketPlayer } from "../player/cricket-player/cricket.player.js";
-import { BowlingPlayer } from "../player/bowling-player/bowling.player.js";
+import { SoccerPlayer } from "../player/soccer-player/soccer.player.ts";
+import { CricketPlayer } from "../player/cricket-player/cricket.player.ts";
+import { BowlingPlayer } from "../player/bowling-player/bowling.player.ts";
 const db = new sqlite3.Database(":memory:");
 // DB 열기
-const openDB = () => {
+const openDB = async () => {
     return new Promise((resolve, reject) => {
         db.on("open", () => {
             console.log("DB가 열렸습니다.");
@@ -16,7 +16,7 @@ const openDB = () => {
     });
 };
 // DB 닫기
-const closeDB = () => {
+const closeDB = async () => {
     return new Promise((resolve, reject) => {
         db.close((err) => {
             if (err) {
@@ -105,7 +105,7 @@ const insertPlayer = async (player) => {
     });
 };
 // 선수 조회
-const fetchPlayers = () => {
+const fetchPlayers = async () => {
     return new Promise((resolve, reject) => {
         db.all("SELECT * FROM players", (err, rows) => {
             if (err) {
