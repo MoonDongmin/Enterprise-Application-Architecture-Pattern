@@ -23,6 +23,8 @@ height="40px"/></a>
 
 [05장. 동시성](https://moondongmin.notion.site/05-31dd01c814c14b4a9a1b768ec8b39b29?pvs=4)
 
+[06장. 세션 상태](https://moondongmin.notion.site/06-fd5f8310f4f44f2fb98f173f024be571?pvs=4)
+
 ## "UML 실젠에서는 이것만 쓴다"
 [클래스 다이어그램](https://moondongmin.notion.site/3-49871219a6524bd3aea9cf8162e5b6d1?pvs=4)
 
@@ -33,3 +35,4 @@ height="40px"/></a>
 [객체 다이어그램](https://moondongmin.notion.site/9-90e09ecfc2c242ccae1fc1aa0bcbc0a4?pvs=4)
 
 [상태 다이어그램](https://moondongmin.notion.site/10-e514c0fef0444a93bdcc6457122a6405?pvs=4)
+
