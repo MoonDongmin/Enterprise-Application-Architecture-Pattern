@@ -25,6 +25,8 @@ height="40px"/></a>
 
 [06장. 세션 상태](https://moondongmin.notion.site/06-fd5f8310f4f44f2fb98f173f024be571?pvs=4)
 
+[07장. 분산 전략](https://moondongmin.notion.site/07-89a16fd1a3e449c9939125a97e66f228?pvs=4)
+
 ## "UML 실젠에서는 이것만 쓴다"
 [클래스 다이어그램](https://moondongmin.notion.site/3-49871219a6524bd3aea9cf8162e5b6d1?pvs=4)
 
