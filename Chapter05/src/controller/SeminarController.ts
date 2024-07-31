@@ -1,33 +1,39 @@
-import {DetailSchedule} from "../schedule/detailSchedule.ts";
-import {Schedule}       from "../schedule/schedule.ts";
-import {WeeklySeminar}  from "./weeklySeminar.ts";
+import {MainSeminar}    from "../seminar/mainSeminar.ts";
 import readline         from "readline-sync";
+import {SeminarService} from "../service/seminarService.ts";
+import {WeeklySeminar}  from "../seminar/weeklySeminar.ts";
+import {Schedule}       from "../schedule/schedule.ts";
+import {Seminar}        from "../schedule/seminar.ts";
 
-export class Seminar implements DetailSchedule {
-    constructor(
-        public year: number,
-        public title: string,
-        public mentor: string[],
-        public mentee: string[],
-        public time: string,
-        public schedule: Schedule[],
-    ) {
+// 사용자와 상호작용하는 부분
+export class SeminarController {
+    private seminars: Seminar[] = [];
+
+    constructor(seminars: Seminar[]) {
+        this.seminars = seminars;
     }
 
-    public static seminarsByYear(seminars: Seminar[], year: number): void {
-        for (let x of seminars) {
-            if (year === x.year) {
-                console.log(x.title);
-            }
-        }
+    // 년도별 세미나 찾기
+    public searchSeminarsByYear(): void {
+        const year: number = readline.questionInt("찾고 싶은 년도를 입력하시오: ");
+        const results = SeminarService.searchSeminarsByYear(this.seminars, year);
+        results.forEach(seminar => console.log(seminar.title));
         console.log();
     }
 
-    public static getSeminarDetails(seminars: Seminar[], title: string): Seminar | undefined {
-        return seminars.find(seminar => seminar.title === title);
+    // 세미나 상세 조회
+    public getSeminarDetails(): void {
+        const title: string = readline.question("세미나 제목을 입력하세요: ");
+        const seminar = SeminarService.getSeminarDetails(this.seminars, title);
+        if (seminar) {
+            console.log(seminar);
+        } else {
+            console.log("세미나를 찾을 수 없습니다.");
+        }
     }
 
-    public static createSeminar(): DetailSchedule {
+    // 세미나 만들기
+    public createSeminar(): void {
         // 년도 등록
         const year: number = readline.questionInt("년도를 입력하시오: ");
 
@@ -67,6 +73,12 @@ export class Seminar implements DetailSchedule {
             schedule.push(new WeeklySeminar(week, chapters, date));
         }
 
-        return new Seminar(year, title, mentor, mentee, time, schedule);
+        const newSeminar = SeminarService.createSeminar(year, title, mentor, mentee, time, schedule);
+        this.seminars.push(newSeminar as MainSeminar);
+        console.log("세미나가 성공적으로 생성되었습니다.");
     }
+
+    // 세미나 수정
+
+    // 세미나 삭제
 }

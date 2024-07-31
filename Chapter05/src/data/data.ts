@@ -1,9 +1,9 @@
-import {DetailSchedule} from "../schedule/detailSchedule.ts";
-import {Seminar}        from "../seminar/seminar.ts";
+import {Seminar}     from "../schedule/seminar.ts";
+import {MainSeminar} from "../seminar/mainSeminar.ts";
 import {WeeklySeminar}  from "../seminar/weeklySeminar.ts";
 
-export const data: DetailSchedule[] = [
-    new Seminar(
+export const data: Seminar[] = [
+    new MainSeminar(
         2024,
         "TypeScript",
         ["DongMin", "DongJun"],
