@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c0d9723e-58f0-43e6-a403-69e2ec2aa08c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/moon/Developments/Enterprise-Application-Architecture-Pattern/UML/sequence-diagram/node_modules/typescript/lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/moon/Developments/Enterprise-Application-Architecture-Pattern/Chapter05/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -84,7 +85,10 @@
       <workItem from="1721693554312" duration="13000" />
       <workItem from="1721797439001" duration="37000" />
       <workItem from="1721889890412" duration="755000" />
-      <workItem from="1721966354737" duration="385000" />
+      <workItem from="1721966354737" duration="14017000" />
+      <workItem from="1722431906726" duration="2147000" />
+      <workItem from="1722488351642" duration="3419000" />
+      <workItem from="1722573616181" duration="1323000" />
     </task>
     <servers />
   </component>

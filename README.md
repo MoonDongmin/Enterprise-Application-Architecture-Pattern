@@ -27,7 +27,7 @@ height="40px"/></a>
 
 [07장. 분산 전략](https://moondongmin.notion.site/07-89a16fd1a3e449c9939125a97e66f228?pvs=4)
 
-## "UML 실젠에서는 이것만 쓴다"
+## "UML 실전에서는 이것만 쓴다"
 [클래스 다이어그램](https://moondongmin.notion.site/3-49871219a6524bd3aea9cf8162e5b6d1?pvs=4)
 
 [시퀀스 다이어그램](https://moondongmin.notion.site/4-6c0468dcce034d44a5dd1003867b83aa?pvs=4)
