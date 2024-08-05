@@ -27,6 +27,8 @@ height="40px"/></a>
 
 [07장. 분산 전략](https://moondongmin.notion.site/07-89a16fd1a3e449c9939125a97e66f228?pvs=4)
 
+[09장. 도메인 논리 패턴](https://moondongmin.notion.site/09-a1ac2c71390e426281b5c0aefa2851d7?pvs=4)
+
 ## "UML 실전에서는 이것만 쓴다"
 [클래스 다이어그램](https://moondongmin.notion.site/3-49871219a6524bd3aea9cf8162e5b6d1?pvs=4)
 
