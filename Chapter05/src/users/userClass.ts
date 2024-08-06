@@ -13,7 +13,7 @@ export class UserClass implements User {
 
 
     // 세미나 추가
-    public createSeminar(seminar: MainSeminar): void {
+    public addSeminar(seminar: MainSeminar): void {
         this.seminars.push(seminar);
         console.log("세미나가 성공적으로 생성되었습니다.");
     }

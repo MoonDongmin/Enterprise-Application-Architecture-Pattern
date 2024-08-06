@@ -4,6 +4,7 @@ import {SeminarService} from "../service/seminarService.ts";
 import {WeeklySeminar}  from "../seminar/weeklySeminar.ts";
 import {Schedule}       from "../schedule/schedule.ts";
 import {Seminar}        from "../schedule/seminar.ts";
+import {UserService}    from "../service/userService.ts";
 
 // 사용자와 상호작용하는 부분
 export class SeminarController {
@@ -32,7 +33,6 @@ export class SeminarController {
         }
     }
 
-    // 세미나 만들기
     public createSeminar(): void {
         // 년도 등록
         const year: number = readline.questionInt("년도를 입력하시오: ");
@@ -42,20 +42,29 @@ export class SeminarController {
 
         // 멘토 등록
         const mentorCount: number = readline.questionInt("멘토 수를 입력하세요: ");
-        const mentor: string[] = [];
+        const mentorNames: string[] = [];
         for (let i = 0; i < mentorCount; i++) {
-            mentor.push(readline.question(`${i + 1}번 째 멘토 이름을 입력하세요: `));
+            mentorNames.push(readline.question(`${i + 1}번 째 멘토 이름을 입력하세요: `));
         }
 
         // 멘티 등록
         const menteeCount: number = readline.questionInt("멘티 수를 입력하세요: ");
-        const mentee: string[] = [];
+        const menteeNames: string[] = [];
         for (let i = 0; i < menteeCount; i++) {
-            mentee.push(readline.question(`${i + 1}번 째 멘티 이름을 입력하세요: `));
+            menteeNames.push(readline.question(`${i + 1}번 째 멘티 이름을 입력하세요: `));
+        }
+
+        // 멘토와 멘티 사용자 확인
+        const mentors = UserService.getUsersByNames(mentorNames);
+        const mentees = UserService.getUsersByNames(menteeNames);
+
+        if (mentors.length !== mentorCount || mentees.length !== menteeCount) {
+            console.log("입력한 멘토 또는 멘티 중 일부를 찾을 수 없습니다.");
+            return;
         }
 
         // 세미나 시간 입력
-        const time: string = readline.question("세미나 시간을 입력하세요 (예: 10:00 - 13:00 ): ");
+        const time: string = readline.question("세미나 시간을 입력하세요 (예: 10:00 - 13:00): ");
 
         // 주차별 강의 등록
         const scheduleCount = readline.questionInt("강의 일정 수를 입력하세요: ");
@@ -73,9 +82,13 @@ export class SeminarController {
             schedule.push(new WeeklySeminar(week, chapters, date));
         }
 
-        const newSeminar = SeminarService.createSeminar(year, title, mentor, mentee, time, schedule);
+        const newSeminar = SeminarService.createSeminar(year, title, mentors, mentees, time, schedule);
         this.seminars.push(newSeminar as MainSeminar);
         console.log("세미나가 성공적으로 생성되었습니다.");
+
+        // 생성된 세미나를 각 멘토와 멘티에 추가
+        mentors.forEach(mentor => mentor.addSeminar(newSeminar as MainSeminar));
+        mentees.forEach(mentee => mentee.addSeminar(newSeminar as MainSeminar));
     }
 
     // 세미나 수정

@@ -1,6 +1,7 @@
 import {Seminar}     from "../schedule/seminar.ts";
 import {Schedule}    from "../schedule/schedule.ts";
 import {MainSeminar} from "../seminar/mainSeminar.ts";
+import {UserClass}   from "../users/userClass.ts";
 
 // 비즈니스 로직
 export class SeminarService {
@@ -18,8 +19,8 @@ export class SeminarService {
     public static createSeminar(
         year: number,
         title: string,
-        mentor: string[],
-        mentee: string[],
+        mentor: UserClass[],
+        mentee: UserClass[],
         time: string,
         schedule: Schedule[],
     ): Seminar {
