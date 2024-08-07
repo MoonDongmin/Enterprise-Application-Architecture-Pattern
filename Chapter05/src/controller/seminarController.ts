@@ -92,6 +92,72 @@ export class SeminarController {
     }
 
     // 세미나 수정
+    public updateSeminar(): void {
+        const title: string = readline.question("수정할 세미나 제목을 입력하세요: ");
+        const seminar = SeminarService.getSeminarDetails(this.seminars, title);
+        if (!seminar) {
+            console.log("세미나를 찾을 수 없습니다.");
+            return;
+        }
+
+        // 새로운 정보 입력
+        const year: number = readline.questionInt(`새로운 년도를 입력하세요 (${seminar.year}): `) || seminar.year;
+        const newTitle: string = readline.question(`새로운 세미나 제목을 입력하세요 (${seminar.title}): `) || seminar.title;
+
+        const mentorCount: number = readline.questionInt("새로운 멘토 수를 입력하세요: ");
+        const mentorNames: string[] = [];
+        for (let i = 0; i < mentorCount; i++) {
+            mentorNames.push(readline.question(`${i + 1}번 째 멘토 이름을 입력하세요: `));
+        }
+
+        const menteeCount: number = readline.questionInt("새로운 멘티 수를 입력하세요: ");
+        const menteeNames: string[] = [];
+        for (let i = 0; i < menteeCount; i++) {
+            menteeNames.push(readline.question(`${i + 1}번 째 멘티 이름을 입력하세요: `));
+        }
+
+        const mentors = UserService.getUsersByNames(mentorNames);
+        const mentees = UserService.getUsersByNames(menteeNames);
+
+        if (mentors.length !== mentorCount || mentees.length !== menteeCount) {
+            console.log("입력한 멘토 또는 멘티 중 일부를 찾을 수 없습니다.");
+            return;
+        }
+
+        const time: string = readline.question(`새로운 세미나 시간을 입력하세요 (${seminar.time}): `) || seminar.time;
+
+        const scheduleCount = readline.questionInt("새로운 강의 일정 수를 입력하세요: ");
+        const schedule: Schedule[] = [];
+        for (let i = 0; i < scheduleCount; i++) {
+            const week: number = i + 1;
+            const chapters: string[] = [];
+            const chapterCount = readline.questionInt(`${i + 1}주차 Chapter 수를 입력하세요: `);
+            for (let j = 0; j < chapterCount; j++) {
+                chapters.push(readline.question(`Chapter 를 작성하시요 (예: Chapter ${j + 1}. 계층화): `));
+            }
+            const date: string = readline.question("날짜를 입력하세요: ");
+            schedule.push(new WeeklySeminar(week, chapters, date));
+        }
+
+        const updatedSeminar = new MainSeminar(year, newTitle, mentors, mentees, time, schedule);
+        const success = SeminarService.updateSeminar(this.seminars, title, updatedSeminar);
+
+        if (success) {
+            console.log("세미나가 성공적으로 수정되었습니다.");
+        } else {
+            console.log("세미나 수정에 실패했습니다.");
+        }
+    }
 
     // 세미나 삭제
+    public deleteSeminar(): void {
+        const title: string = readline.question("삭제할 세미나 제목을 입력하세요: ");
+        const success = SeminarService.deleteSeminar(this.seminars, title);
+
+        if (success) {
+            console.log("세미나가 성공적으로 삭제되었습니다.");
+        } else {
+            console.log("세미나 삭제에 실패했습니다.");
+        }
+    }
 }

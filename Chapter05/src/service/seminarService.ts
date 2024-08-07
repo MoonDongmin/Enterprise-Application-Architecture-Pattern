@@ -26,4 +26,25 @@ export class SeminarService {
     ): Seminar {
         return new MainSeminar(year, title, mentor, mentee, time, schedule);
     }
+
+    // 세미나 수정
+    public static updateSeminar(seminars: Seminar[], title: string, updatedSeminar: Seminar): boolean {
+        const index = seminars.findIndex(seminar => seminar.title === title);
+        if (index !== -1) {
+            seminars[index] = updatedSeminar;
+            return true;
+        }
+        return false;
+    }
+
+    // 세미나 삭제
+    public static deleteSeminar(seminars: Seminar[], title: string): boolean {
+        const index = seminars.findIndex(seminar => seminar.title === title);
+        if (index !== -1) {
+            seminars.splice(index, 1);
+            return true;
+        }
+        return false;
+    }
+
 }
