@@ -29,6 +29,8 @@ height="40px"/></a>
 
 [09장. 도메인 논리 패턴](https://moondongmin.notion.site/09-a1ac2c71390e426281b5c0aefa2851d7?pvs=4)
 
+[18장. 기본 패턴](https://moondongmin.notion.site/18-d515be9cb2934f06a1ca7a9b625892e5?pvs=4)
+
 ## "UML 실전에서는 이것만 쓴다"
 [클래스 다이어그램](https://moondongmin.notion.site/3-49871219a6524bd3aea9cf8162e5b6d1?pvs=4)
 
@@ -39,4 +41,6 @@ height="40px"/></a>
 [객체 다이어그램](https://moondongmin.notion.site/9-90e09ecfc2c242ccae1fc1aa0bcbc0a4?pvs=4)
 
 [상태 다이어그램](https://moondongmin.notion.site/10-e514c0fef0444a93bdcc6457122a6405?pvs=4)
+
+
 
