@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d9723e-58f0-43e6-a403-69e2ec2aa08c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c0d9723e-58f0-43e6-a403-69e2ec2aa08c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +54,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-WS-242.20224.426" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
       </set>
     </attachedChunks>
   </component>
@@ -95,6 +93,7 @@
       <workItem from="1724648563697" duration="6173000" />
       <workItem from="1724741547290" duration="2386000" />
       <workItem from="1724913992130" duration="26000" />
+      <workItem from="1726464179470" duration="4176000" />
     </task>
     <servers />
   </component>

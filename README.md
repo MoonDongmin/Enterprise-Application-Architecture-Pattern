@@ -29,6 +29,8 @@ height="40px"/></a>
 
 [09장. 도메인 논리 패턴](https://moondongmin.notion.site/09-a1ac2c71390e426281b5c0aefa2851d7?pvs=4)
 
+[10장. 데이터 원본 아키텍처 패턴](https://moondongmin.notion.site/10-103357c44e5680cebd1edf36634c3790?pvs=4)
+
 [18장. 기본 패턴](https://moondongmin.notion.site/18-d515be9cb2934f06a1ca7a9b625892e5?pvs=4)
 
 ## "UML 실전에서는 이것만 쓴다"
