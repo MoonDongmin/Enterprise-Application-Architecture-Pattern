@@ -69,3 +69,13 @@ class PersonGateway {
         return maxId + 1;
     }
 }
+
+const response = {
+    data: {
+        message: "asdfas",
+        "FE_want_data": "hi",
+    },
+    error: {},
+};
+
+console.log(response.data);

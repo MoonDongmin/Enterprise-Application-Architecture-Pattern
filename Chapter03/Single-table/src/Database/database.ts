@@ -76,7 +76,7 @@ const insertPlayer = async (
     //       bowlingAverage = player.bowlingAverage;
     //   }
     //
-    //   db.run(`
+    //   database.run(`
     //   INSERT INTO players (name, club, battingAverage, bowlingAverage, type)
     //   VALUES (?, ?, ?, ?, ?)
     // `, [name, club, battingAverage, bowlingAverage, type]);

@@ -46,6 +46,7 @@ class PersonGateway {
 
 
     // Update method
+    // @ts-ignore
     async update(db: Pool): Promise<void> {
         let updateStatement;
         try {
@@ -61,6 +62,7 @@ class PersonGateway {
     }
 
     // Insert method
+    // @ts-ignore
     async insert(db: Pool): Promise<number> {
         let insertStatement;
         try {
