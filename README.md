@@ -31,6 +31,8 @@ height="40px"/></a>
 
 [10장. 데이터 원본 아키텍처 패턴](https://moondongmin.notion.site/10-103357c44e5680cebd1edf36634c3790?pvs=4)
 
+[Chapter 12장. 객체-관계형 구조 패턴](https://moondongmin.notion.site/Chapter-12-11e357c44e5680dab0e1c86cc952a1b5?pvs=4)
+
 [18장. 기본 패턴](https://moondongmin.notion.site/18-d515be9cb2934f06a1ca7a9b625892e5?pvs=4)
 
 ## "UML 실전에서는 이것만 쓴다"
