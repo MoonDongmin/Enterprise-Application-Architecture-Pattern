@@ -2,7 +2,7 @@ import {Mapper}       from "./mapper";
 import {Footballer}   from "./data/footballer";
 import {DomainObject} from "./data/domainObject";
 
-class PlayerMapper extends Mapper {
+export class PlayerMapper extends Mapper {
     protected static tableName: string = "Players";
 
     private bmapper: Mapper; // Assuming mappers for different types are instances of Mapper

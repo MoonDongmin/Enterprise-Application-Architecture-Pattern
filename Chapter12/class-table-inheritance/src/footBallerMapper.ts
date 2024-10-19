@@ -1,10 +1,10 @@
 import {AbstractPlayerMapper} from "./abstractPlayerMapper";
 import {Footballer}           from "./data/footballer";
-import {Mapper}               from "./mapper";
 import {DomainObject}         from "./data/domainObject";
+import {PlayerMapper}         from "./playerMapper";
 
 class FootballerMapper extends AbstractPlayerMapper {
-    private mapper: Mapper;
+    private mapper: PlayerMapper;
 
     get typeCode(): string {
         return "F";
@@ -13,7 +13,7 @@ class FootballerMapper extends AbstractPlayerMapper {
     protected static tableName: string = "Footballers";
 
     public find(id: number): Footballer {
-        return this.mapper.abstractFind(id, FootballerMapper.tableName) as Footballer;
+        return this.abstractFind(id, FootballerMapper.tableName) as Footballer;
     }
 
     protected createDomainObject(): Footballer {

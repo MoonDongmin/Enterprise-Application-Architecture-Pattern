@@ -20,4 +20,11 @@ export abstract class AbstractPlayerMapper extends Mapper {
         const row = this.findRow(obj.id, this.tableFor(AbstractPlayerMapper.tableName));
         row.Delete();
     }
+
+    protected override save(arg: DomainObject) {
+        const row = this.findRow(obj.id, this.tableFor(AbstractPlayerMapper.tableName));
+        const player = obj;
+        row["name"] = player.name;
+        row["type"] = TypeCode;
+    }
 }

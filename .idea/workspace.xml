@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0d9723e-58f0-43e6-a403-69e2ec2aa08c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter03/Single-table/dist/Database/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/Single-table/dist/Database/database.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter03/Single-table/src/Database/database.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/Single-table/src/Database/database.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter10/row-data-gateway/PersonGateway.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter10/row-data-gateway/PersonGateway.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter10/table-data-gateway/PersonGateway.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter10/table-data-gateway/PersonGateway.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/table-data-gateway-db/src/db.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/table-data-gateway-db/src/database/db.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/table-data-gateway-db/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/table-data-gateway-db/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/table-data-gateway-db/src/users/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/table-data-gateway-db/src/users/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter12/class-table-inheritance/src/abstractPlayerMapper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/class-table-inheritance/src/abstractPlayerMapper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter12/class-table-inheritance/src/footBallerMapper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/class-table-inheritance/src/footBallerMapper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter12/class-table-inheritance/src/playerMapper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/class-table-inheritance/src/playerMapper.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practice/table-data-gateway-db/src/users/userGateway.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/table-data-gateway-db/src/users/userGateway.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/table-data-gateway-db/src/users/userTableModule.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/table-data-gateway-db/src/users/userTableModule.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,33 +36,34 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/moon/Developments/Enterprise-Application-Architecture-Pattern&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/moon/Developments/Enterprise-Application-Architecture-Pattern/Chapter12/class-table-inheritance/src&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/moon/Developments/Enterprise-Application-Architecture-Pattern/Chapter03/Single-table/node_modules/typescript/lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/moon/Developments/Enterprise-Application-Architecture-Pattern/Chapter12/concrete-table-inheritance/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Chapter12/class-table-inheritance/src" />
       <recent name="$PROJECT_DIR$/UML/sequence-diagram/src" />
       <recent name="$PROJECT_DIR$/UML/sequence-diagram2/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Chapter12/class-table-inheritance/src/data" />
+      <recent name="$PROJECT_DIR$/Chapter12/class-table-inheritance/src" />
       <recent name="$PROJECT_DIR$/Practice/table-data-gateway-db/src/database" />
       <recent name="$PROJECT_DIR$/Chapter03/Single-table" />
       <recent name="$PROJECT_DIR$/UML/sequence-diagram" />
-      <recent name="$PROJECT_DIR$/UML" />
-      <recent name="$PROJECT_DIR$/UML/Class-Diagram/product" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.22855.79" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
       </set>
     </attachedChunks>
   </component>
@@ -114,6 +111,14 @@
       <workItem from="1727232019579" duration="4080000" />
       <workItem from="1727239548629" duration="879000" />
       <workItem from="1727311273444" duration="7312000" />
+      <workItem from="1727425620122" duration="4810000" />
+      <workItem from="1727863617736" duration="2740000" />
+      <workItem from="1728033982089" duration="3378000" />
+      <workItem from="1728621065000" duration="441000" />
+      <workItem from="1728634986858" duration="1213000" />
+      <workItem from="1728810399938" duration="5245000" />
+      <workItem from="1729043211727" duration="20924000" />
+      <workItem from="1729223374340" duration="3398000" />
     </task>
     <servers />
   </component>

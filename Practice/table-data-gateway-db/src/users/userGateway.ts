@@ -1,5 +1,6 @@
 import {Database} from "sqlite";
 import {User}     from "./user.ts";
+
 /*
     * 전체 테이블에 대한 관련 로직을 구현하는게 맞음
     * 하지만 개별행에 대한 로직도 가능은 함
@@ -12,7 +13,7 @@ export class UserGateway {
         this.db = db;
     }
 
-    // 모든 사용자 찾기
+    // 모든 사용자 테이블 가져오기
     async findAll(): Promise<User[]> {
         return await this.db.all("SELECT * FROM users"); // 타입을 명시적으로 User[]로 변환
     }
@@ -21,6 +22,7 @@ export class UserGateway {
     async findById(id: number): Promise<User | undefined> {
         return await this.db.get("SELECT * FROM users WHERE id = ?", id);
     }
+
 
     // Email로 사용자 찾기
     async findByEmail(email: string): Promise<User | undefined> {

@@ -8,19 +8,29 @@ export class UserTableModule {
         this.userGateway = userGateway;
     }
 
+    // 비즈니스 로직 추가
+    async emailBlankRemove(){
+        const userTable = await this.userGateway.findAll();
+
+        return userTable.map((user: User) => {
+            user.email = user.email.replace(/\s+/g, ""); // 모든 공백 제거
+            return user;
+        });
+    }
+
     async getAllUsers(): Promise<User[]> {
         const users = await this.userGateway.findAll();
         return users;
     }
+
 
     async getUserById(id: number): Promise<User | undefined> {
         const user = await this.userGateway.findById(id);
         if (!user) throw new Error(`User with ID ${id} not found.`);
         return user;
     }
-
-
     // 이메일 검증 비즈니스로직
+
     async createUser(
         name: string,
         email: string,
