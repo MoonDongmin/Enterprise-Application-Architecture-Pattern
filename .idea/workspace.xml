@@ -6,11 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="c0d9723e-58f0-43e6-a403-69e2ec2aa08c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/class-table-inheritance/src/abstractPlayerMapper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/class-table-inheritance/src/abstractPlayerMapper.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/class-table-inheritance/src/footBallerMapper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/class-table-inheritance/src/footBallerMapper.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12/class-table-inheritance/src/playerMapper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/class-table-inheritance/src/playerMapper.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/table-data-gateway-db/src/users/userGateway.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/table-data-gateway-db/src/users/userGateway.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/table-data-gateway-db/src/users/userTableModule.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/table-data-gateway-db/src/users/userTableModule.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/class-table-inheritance/.tool-versions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/class-table-inheritance/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/class-table-inheritance/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/class-table-inheritance/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/class-table-inheritance/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/class-table-inheritance/src/database/db.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/class-table-inheritance/src/database/db.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/class-table-inheritance/src/mapper/mapper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/class-table-inheritance/src/mapper/mapper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/class-table-inheritance/src/person/person.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/class-table-inheritance/src/person/person.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/class-table-inheritance/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/class-table-inheritance/tsconfig.json" afterDir="false" />
+    </list>
+    <list id="7a23e835-ecb4-40a4-8724-6cf627573c21" name="Changes by yujaeyeong" comment="">
+      <change beforePath="$PROJECT_DIR$/Practice/class-table-inheritance/src/database/db.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/class-table-inheritance/src/database/db.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/class-table-inheritance/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/class-table-inheritance/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/class-table-inheritance/src/person/person.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/class-table-inheritance/src/person/person.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +26,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/Practice/class-table-inheritance/src/database/db.ts">
+      <ranges>
+        <range start1="3" end1="15" start2="3" end2="47" changelist="7a23e835-ecb4-40a4-8724-6cf627573c21" />
+        <range start1="16" end1="19" start2="48" end2="51" changelist="c0d9723e-58f0-43e6-a403-69e2ec2aa08c" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/Practice/class-table-inheritance/src/person/person.ts">
+      <ranges>
+        <range start1="0" end1="1" start2="0" end2="1" changelist="c0d9723e-58f0-43e6-a403-69e2ec2aa08c" />
+        <range start1="2" end1="2" start2="2" end2="14" changelist="7a23e835-ecb4-40a4-8724-6cf627573c21" />
+      </ranges>
+    </file>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -118,7 +139,9 @@
       <workItem from="1728634986858" duration="1213000" />
       <workItem from="1728810399938" duration="5245000" />
       <workItem from="1729043211727" duration="20924000" />
-      <workItem from="1729223374340" duration="3398000" />
+      <workItem from="1729223374340" duration="5474000" />
+      <workItem from="1729582945521" duration="640000" />
+      <workItem from="1729733238501" duration="16967000" />
     </task>
     <servers />
   </component>
@@ -130,6 +153,10 @@
         <option value="$PROJECT_DIR$/Practice/table-data-gateway-db/src/main.js" />
         <option value="$PROJECT_DIR$/Practice/table-data-gateway-db/src/users/user.js" />
         <option value="$PROJECT_DIR$/Practice/table-data-gateway-db/src/users/userGateway.js" />
+        <option value="$PROJECT_DIR$/Practice/class-table-inheritance/src/person/person.js" />
+        <option value="$PROJECT_DIR$/Practice/class-table-inheritance/src/main.js" />
+        <option value="$PROJECT_DIR$/Practice/class-table-inheritance/src/mapper/mapper.js" />
+        <option value="$PROJECT_DIR$/Practice/class-table-inheritance/src/database/db.js" />
       </list>
     </option>
   </component>

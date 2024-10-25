@@ -1,50 +1,31 @@
-import {open}  from "sqlite";
-import sqlite3 from "sqlite3";
+import {DomainObject} from "../domainObject";
 
 export class Mapper {
+    protected db: any;
+
+    constructor(db: any) {
+        this.db = db;
+    }
+
     // 검색 메서드
-    public abstractFind() {
-
+    protected findAll() {
+        throw new Error("findAll() 메서드는 서브클래스에서 구현해야 합니다.");
     }
 
-    protected findRow() {
-
-    }
-
-    // 로드 메서드
-    protected load() {
-
-    }
 
     // 삽입 메서드
-    public insert() {
-
-    }
-
-    protected insertRow() {
-
-    }
-
-    protected addRow() {
-
-    }
-
-    protected save() {
-
-    }
-
-    public createDomainObject() {
-
+    protected async insert(obj: DomainObject): Promise<void> {
+        throw new Error("insert() 메서드는 서브클래스에서 구현해야 합니다.");
     }
 
     // 업데이트 메서드
-    public update() {
-
+    protected async update(obj: DomainObject): Promise<void> {
+        throw new Error("update() 메서드는 서브클래스에서 구현해야 합니다.");
     }
 
-    // 삭제 메서드
-    public delete() {
-
+    // 데이터 삭제 메서드
+    public async delete(obj: DomainObject): Promise<void> {
+        throw new Error("update() 메서드는 서브클래스에서 구현해야 합니다.");
     }
 
 }
